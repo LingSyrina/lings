@@ -550,7 +550,7 @@ main {
 .service-item-title { margin-bottom: 7px; }
 
 .service-item-text {
-  color: var(--light-gray);
+  color: var(--smoky-black);
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
@@ -710,7 +710,7 @@ main {
 
 .modal-content time {
   font-size: var(--fs-6);
-  color: var(--light-gray-70);
+  color: var(--smoky-black);
   font-weight: var(--fw-300);
   margin-bottom: 10px;
 }
@@ -850,7 +850,7 @@ main {
 }
 
 .skill .title-wrapper data {
-  color: var(--light-gray);
+  color: var(--smoky-black);
   font-size: var(--fs-7);
   font-weight: var(--fw-300);
 }
@@ -885,7 +885,7 @@ main {
 
 .filter-select {
   background: var();
-  color: var(--light-gray);
+  color: var(--smoky-black);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -922,7 +922,7 @@ main {
 
 .select-item button {
   background: var(--white-2);
-  color: var(--light-gray);
+  color: var(--smoky-black);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   text-transform: capitalize;
@@ -1022,7 +1022,7 @@ main {
 }
 
 .project-category {
-  color: var(--light-gray-70);
+  color: var(--smoky-black-70);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
@@ -1088,7 +1088,7 @@ main {
 }
 
 .blog-meta :is(.blog-category, time) {
-  color: var(--light-gray-70);
+  color: var(--smoky-black-70);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
@@ -1109,7 +1109,7 @@ main {
 .blog-post-item > a:hover .blog-item-title { color: var(--orange-yellow-crayola); }
 
 .blog-text {
-  color: var(--light-gray);
+  color: var(--smoky-black);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
@@ -1614,12 +1614,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .filter-item button {
-    color: var(--light-gray);
+    color: var(--smoky-black);
     font-size: var(--fs-5);
     transition: var(--transition-1);
   }
 
-  .filter-item button:hover { color: var(--light-gray-70); }
+  .filter-item button:hover { color: var(--smoky-black); }
 
   .filter-item button.active { color: var(--orange-yellow-crayola); }
 
