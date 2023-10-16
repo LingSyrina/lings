@@ -66,8 +66,8 @@
   --white-corn: hsl(0, 0%, 90%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
   --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 0%, 84%);
-  --light-gray-70: hsla(0, 0%, 84%, 0.7);
+  --light-gray: hsl(0, 0%, 88%);
+  --light-gray-70: hsla(0, 0%, 88%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
   /**
@@ -179,7 +179,7 @@ article {
 .separator {
   width: 100%;
   height: 1px;
-  background: var(--jet);
+  background: var(--white-corn);
   margin: 16px 0;
 }
 
@@ -262,7 +262,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
-  background: var(--onyx);
+  background: var(--white-corn);
   border-radius: 5px;
 }
 
@@ -347,7 +347,7 @@ main {
 
 .info-content .title {
   color: var(--smoky-black);
-  background: var(--onyx);
+  background: var(--white-corn);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
   width: max-content;
@@ -809,7 +809,7 @@ main {
   left: -30px;
   width: 1px;
   height: calc(100% + 50px);
-  background: var(--jet);
+  background: var(--white-corn);
 }
 
 .timeline-item::after {
@@ -856,7 +856,7 @@ main {
 }
 
 .skill-progress-bg {
-  background: var(--jet);
+  background: var(--white-corn);
   width: 100%;
   height: 8px;
   border-radius: 10px;
@@ -980,7 +980,7 @@ main {
 .project-item-icon-box {
   --scale: 0.8;
 
-  background: var(--jet);
+  background: var(--white-corn);
   color: var(--orange-yellow-crayola);
   position: absolute;
   top: 50%;
@@ -1129,7 +1129,7 @@ main {
   width: 100%;
   border-radius: 16px;
   margin-bottom: 30px;
-  border: 1px solid var(--jet);
+  border: 1px solid var(--white-1);
   overflow: hidden;
 }
 
@@ -1158,7 +1158,7 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-400);
   padding: 13px 20px;
-  border: 1px solid var(--jet);
+  border: 1px solid var(--white-1);
   border-radius: 14px;
   outline: none;
 }
