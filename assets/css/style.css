@@ -333,7 +333,7 @@ main {
 }
 
 .avatar-box {
-  background: var(--bg-gradient-onyx);
+  background: var(--border-gradient-onyx);
   border-radius: 20px;
 }
 
@@ -374,7 +374,7 @@ main {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: var(--bg-gradient-jet);
+  background: var(--border-gradient-onyx);
   transition: var(--transition-1);
   z-index: -1;
 }
@@ -460,7 +460,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: hsla(240, 1%, 87%, 0.75);
   backdrop-filter: blur(10px);
   border: 1px solid var(--white-1);
   border-radius: 12px 12px 0 0;
@@ -477,14 +477,14 @@ main {
 }
 
 .navbar-link {
-  color: var(--light-gray);
+  color: var(--smoky-black);
   font-size: var(--fs-8);
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
 
 .navbar-link:hover,
-.navbar-link:focus { color: var(--light-gray-70); }
+.navbar-link:focus { color: var(--smoky-black); }
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
@@ -589,7 +589,7 @@ main {
   top: 0;
   left: 0;
   transform: translate(15px, -25px);
-  background: var(--bg-gradient-onyx);
+  background: var(--border-gradient-onyx);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
 }
@@ -597,7 +597,7 @@ main {
 .testimonials-item-title { margin-bottom: 7px; }
 
 .testimonials-text {
-  color: var(--light-gray);
+  color: var(--smoky-black);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
@@ -686,7 +686,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--white-2);
+  color: var(--smoky-black);
   font-size: 18px;
   opacity: 0.7;
 }
@@ -697,7 +697,7 @@ main {
 .modal-close-btn ion-icon { --ionicon-stroke-width: 50px; }
 
 .modal-avatar-box {
-  background: var(--bg-gradient-onyx);
+  background: var(--border-gradient-onyx);
   width: max-content;
   border-radius: 14px;
   margin-bottom: 15px;
@@ -716,7 +716,7 @@ main {
 }
 
 .modal-content p {
-  color: var(--light-gray);
+  color: var(--smoky-black);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
