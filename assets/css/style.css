@@ -33,6 +33,12 @@
     hsla(240, 1%, 87%, 0.251) 0%, 
     hsla(240, 2%, 94%, 0) 100%
   ), hsl(240, 2%, 92%);
+  --border-gradient-onyx: linear-gradient(
+    to bottom right, 
+    hsl(0, 0%, 80%) 0%, 
+    hsla(0, 0%, 80%, 0) 50%
+  );
+	
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
     hsl(45, 100%, 71%) 0%, 
@@ -43,11 +49,6 @@
     hsla(45, 100%, 71%, 0.251) 0%, 
     hsla(35, 100%, 68%, 0) 59.86%
   ), hsl(240, 2%, 13%);
-  --border-gradient-onyx: linear-gradient(
-    to bottom right, 
-    hsl(0, 0%, 80%) 0%, 
-    hsla(0, 0%, 80%, 0) 50%
-  );
   --text-gradient-yellow: linear-gradient(
     to right, 
     hsl(45, 100%, 72%), 
@@ -185,7 +186,7 @@ article {
 
 .icon-box {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: var(--white-2);
   width: 30px;
   height: 30px;
   border-radius: 8px;
@@ -275,7 +276,7 @@ article.active {
 
 .content-card {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: var(--white-2);
   padding: 15px;
   padding-top: 45px;
   border-radius: 14px;
