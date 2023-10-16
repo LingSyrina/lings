@@ -1056,7 +1056,7 @@ main {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: var(--eerie-black-1);
+  background: var(--white-1);
   z-index: -1;
 }
 
@@ -1772,7 +1772,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   body::-webkit-scrollbar { width: 20px; }
 
-  body::-webkit-scrollbar-track { background: var(--smoky-black); }
+  body::-webkit-scrollbar-track { background: var(--white-2); }
 
   body::-webkit-scrollbar-thumb {
     border: 5px solid var(--smoky-black);
