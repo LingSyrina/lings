@@ -1094,7 +1094,7 @@ main {
 }
 
 .blog-meta .dot {
-  background: var(--light-gray-70);
+  background: var(--white-corn);
   width: 4px;
   height: 4px;
   border-radius: 4px;
