@@ -35,6 +35,7 @@
   ), hsl(240, 2%, 92%);
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
+	#C2D3A9 0%,
     hsl(0, 0%, 80%) 0%, 
     hsla(0, 0%, 80%, 0) 50%
   );
@@ -65,7 +66,7 @@
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --white-corn: hsl(0, 0%, 90%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
+  --orange-yellow-crayola: hsl(45, 100%, 60%);
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: hsl(0, 0%, 88%);
   --light-gray-70: hsla(0, 0%, 88%, 0.7);
